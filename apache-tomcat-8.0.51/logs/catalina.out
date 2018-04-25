@@ -1,0 +1,105 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Apr-2018 13:54:00.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.51
+23-Apr-2018 13:54:00.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2018 21:20:15 UTC
+23-Apr-2018 13:54:00.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.51.0
+23-Apr-2018 13:54:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+23-Apr-2018 13:54:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.4
+23-Apr-2018 13:54:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+23-Apr-2018 13:54:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+23-Apr-2018 13:54:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+23-Apr-2018 13:54:00.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2018 13:54:00.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 13:54:00.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 13:54:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Apr-2018 13:54:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Apr-2018 13:54:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Apr-2018 13:54:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/conf/logging.properties
+23-Apr-2018 13:54:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2018 13:54:00.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2018 13:54:00.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2018 13:54:00.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Apr-2018 13:54:00.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 13:54:00.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 13:54:00.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/temp
+23-Apr-2018 13:54:00.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/chenshihao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+23-Apr-2018 13:54:00.695 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 13:54:00.737 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2018 13:54:00.739 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 13:54:00.741 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2018 13:54:00.741 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1031 ms
+23-Apr-2018 13:54:00.852 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Apr-2018 13:54:00.852 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.51
+23-Apr-2018 13:54:00.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/docs
+23-Apr-2018 13:54:01.317 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/docs has finished in 452 ms
+23-Apr-2018 13:54:01.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/manager
+23-Apr-2018 13:54:01.363 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/manager has finished in 45 ms
+23-Apr-2018 13:54:01.363 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/examples
+23-Apr-2018 13:54:01.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/examples has finished in 347 ms
+23-Apr-2018 13:54:01.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/ROOT
+23-Apr-2018 13:54:01.728 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/ROOT has finished in 18 ms
+23-Apr-2018 13:54:01.728 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/host-manager
+23-Apr-2018 13:54:01.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/host-manager has finished in 29 ms
+23-Apr-2018 13:54:01.759 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 13:54:01.767 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 13:54:01.769 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1027 ms
+23-Apr-2018 13:55:03.131 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Apr-2018 13:55:03.131 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 13:55:03.186 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 13:55:03.240 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Apr-2018 13:55:03.277 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 13:55:03.350 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 13:55:03.351 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 13:55:03.352 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+usage: java org.apache.catalina.startup.Catalina [ -config {pathname} ] [ -nonaming ]  { -help | start | stop }
+23-Apr-2018 14:01:29.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.51
+23-Apr-2018 14:01:29.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2018 21:20:15 UTC
+23-Apr-2018 14:01:29.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.51.0
+23-Apr-2018 14:01:29.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+23-Apr-2018 14:01:29.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.4
+23-Apr-2018 14:01:29.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+23-Apr-2018 14:01:29.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+23-Apr-2018 14:01:29.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+23-Apr-2018 14:01:29.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Apr-2018 14:01:29.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 14:01:29.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 14:01:29.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Apr-2018 14:01:29.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Apr-2018 14:01:29.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Apr-2018 14:01:29.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/conf/logging.properties
+23-Apr-2018 14:01:29.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Apr-2018 14:01:29.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Apr-2018 14:01:29.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Apr-2018 14:01:29.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Apr-2018 14:01:29.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 14:01:29.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51
+23-Apr-2018 14:01:29.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/temp
+23-Apr-2018 14:01:29.205 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/chenshihao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+23-Apr-2018 14:01:29.264 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 14:01:29.305 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2018 14:01:29.307 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 14:01:29.309 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Apr-2018 14:01:29.309 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 788 ms
+23-Apr-2018 14:01:29.392 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Apr-2018 14:01:29.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.51
+23-Apr-2018 14:01:29.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/docs
+23-Apr-2018 14:01:29.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/docs has finished in 430 ms
+23-Apr-2018 14:01:29.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/manager
+23-Apr-2018 14:01:29.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/manager has finished in 38 ms
+23-Apr-2018 14:01:29.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/examples
+23-Apr-2018 14:01:30.225 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/examples has finished in 351 ms
+23-Apr-2018 14:01:30.225 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/ROOT
+23-Apr-2018 14:01:30.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/ROOT has finished in 21 ms
+23-Apr-2018 14:01:30.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/host-manager
+23-Apr-2018 14:01:30.268 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/chenshihao/Google Drive/Spring 2018/java web development/apache-tomcat-8.0.51/webapps/host-manager has finished in 22 ms
+23-Apr-2018 14:01:30.271 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 14:01:30.278 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 14:01:30.280 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 970 ms
+23-Apr-2018 14:34:03.975 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Apr-2018 14:34:03.976 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 14:34:04.032 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 14:34:04.088 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Apr-2018 14:34:04.119 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 14:34:04.124 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Apr-2018 14:34:04.125 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Apr-2018 14:34:04.126 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
